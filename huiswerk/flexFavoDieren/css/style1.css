@@ -1,0 +1,14 @@
+h1, img{
+	display: inline;
+	text-align: center;
+
+}
+.wrapper{
+	display: flex;
+	text-align: center;
+	margin: 0 auto;
+	width: 968px;
+}
+body{
+	background-color: yellow;
+}

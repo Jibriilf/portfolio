@@ -1,0 +1,91 @@
+body {
+    -webkit-animation: bgcolor 5s infinite;
+    animation: bgcolor 5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+@keyframes bgcolor {
+    50% {
+        background-color: blueviolet;
+    }
+
+    50% {
+        background-color: slateblue;
+    }
+
+    50% {
+        background-color: skyblue;
+    }
+
+    50% {
+        background-color: royalblue;
+    }
+
+    50% {
+        background-color: aliceblue;
+    }
+    50% {
+    	background-color: blue;  	
+    }
+    50% {
+    	background-color: navy;
+    }
+    50% {
+        background-color: lightblue;
+    }
+    50% {
+        background-color: blanchedalmond;
+    }
+    50% {
+        background-color: dodgerblue;
+    }
+    50% {
+        background-color: mediumblue;
+    }
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+a{
+    padding: 10px 20px;
+    border: 1px double red;
+    background-color: purple;
+    margin: 20px;
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 968px;
+    text-align: center;
+}
+img{
+    margin: 100px;
+    width: 300px;
+}
+
+header{
+    background-color: royalblue;
+}
+
+footer{
+    background-color: royalblue;
+}
+ul{
+    display: flex;
+    justify-content: start;
+    align-content: ;
+}
+li{
+    margin: 50px;
+}
+.screens{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

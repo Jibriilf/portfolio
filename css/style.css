@@ -1,0 +1,88 @@
+a{
+	color:#A9DBB8 ;
+	text-decoration: none;
+	padding: 0 0 3px 0;
+	border-style: double;
+	border-color: greenyellow;
+}
+p{
+	color: dimgrey;
+}
+ul li{
+	font-size: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+h1 {
+	text-align: center;
+	margin: 10px 0px;
+    padding: 20px;
+}
+
+
+.hobbies h2,h3,p,img{
+	border-style: 1px double grey;
+	margin: 0 auto;
+    width: 300px;
+	background-color: #C6EBBE;
+	padding: 10px;
+	color: orangered;
+}
+header, footer{
+	background-color: #7CA5B8;
+	padding-bottom: 15px;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 968px;
+}
+
+body {
+    -webkit-animation: bgcolor 5s infinite;
+    animation: bgcolor 5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+@keyframes bgcolor {
+    25% {
+        background-color: blueviolet;
+    }
+
+    25% {
+        background-color: slateblue;
+    }
+
+    25% {
+        background-color: skyblue;
+    }
+
+    25% {
+        background-color: royalblue;
+    }
+
+    25% {
+        background-color: aliceblue;
+    }
+    25% {
+    	background-color: blue;  	
+    }
+    25% {
+    	background-color: navy;
+    }
+
+}
+main{
+    margin: 10px 0px;
+    text-align: center;
+}
+ul{
+    color: red;
+    padding: 10px;
+    border-style: 2px solid dimgrey ;
+    background-color: #7CA5B8;
+}

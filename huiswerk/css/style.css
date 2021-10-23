@@ -1,0 +1,49 @@
+main{
+	display: flex;
+	justify-content: space-between
+}
+img{
+	width: 200px;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	border: 2px dotted orange;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+footer{
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+	padding: 1px 20px;
+	border: 2px dotted orange;
+}
+*{
+	margin: 0 auto;
+	text-align: center;
+}
+
+a{
+	padding: 10px 20px;
+	border-bottom: 2px dotted red;
+	background-color: orange;
+	text-decoration: none;
+	color: ghostwhite;
+}
+main img{
+	padding: 10px 20px;
+	border: 2px dotted orange;
+	background-color: orange;
+}
+body{
+	margin: 0 auto;
+	width: 968px;
+}
